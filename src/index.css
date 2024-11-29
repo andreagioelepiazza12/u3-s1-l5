@@ -1,0 +1,23 @@
+body {
+  background-color:#212529 ;
+}
+
+.image-carousel {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.image-item {
+  flex: 0 0 auto;
+  width: 150px; /* Imposta la larghezza delle immagini */
+  scroll-snap-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
